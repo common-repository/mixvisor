@@ -1,0 +1,32 @@
+/*
+  Admin Styles
+*/
+
+.mixvisor-require-register {
+  background: #fff;
+  border-left: 4px solid #00a0d2;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  margin: 5px 0;
+  padding: 1px 12px;
+}
+
+.mixvisor-require-register p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 783px) {
+  .mixvisor-admin-inline-list {
+    max-width: 630px;
+  }
+
+  .mixvisor-admin-inline-list li {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .mixvisor-require-register {
+    max-width: 595px;
+  }
+}
